@@ -1,23 +1,24 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>simple crystal game</title>
-  <link rel="stylesheet" href="/assets/css/reset.css">
-  <link rel="stylesheet" href="/assets/css/style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crystal Game</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
 
-  <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+  <!-- Main section holding number to guess span -->
+  <section id="main-section">
 
-  <!-- Note that this div is now empty. We will fill it dynamically -->
-  <div id="crystals">
-  </div>
-
-  <!-- JAVASCRIPT  -->
-  <!-- ========================================= -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <script type="text/javascript" src="/assets/javascript/game.js"></script>
+    <div id="number">
+      <h2>Number to Guess: <span id="numberToGuess"></span></h2>
+    </div>
+  </section>
+  
 </body>
+
+<script src="/assets/javascript/game.js"></script>
 </html>
