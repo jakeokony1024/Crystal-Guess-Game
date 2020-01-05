@@ -1,4 +1,4 @@
-h1 {
+h1  {
 
     font-size: 40px;
     text-emphasis: bold;
@@ -8,4 +8,9 @@ h1 {
     height: 300px;
     width: 300px;
 
+}
+
+#wins, #losses {
+    font-size: 40px;
+    text-emphasis: bold;
 }
