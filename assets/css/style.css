@@ -1,5 +1,16 @@
-h1  {
+* {
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Girassol', cursive;
+    background-image: url("../images/pink-and-white-stones-2942855.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
     font-size: 40px;
     text-emphasis: bold;
 }
@@ -10,7 +21,19 @@ h1  {
 
 }
 
-#wins, #losses {
+/* Styling to the text  */
+#wins,
+#losses,
+#rounds {
     font-size: 40px;
     text-emphasis: bold;
+}
+
+/* Styling to directions and centering them */
+#directions {
+    margin: 20px 0 20px 0;
+    text-emphasis: bold;
+    text-align: center;
+    line-height: normal;
+    font-size: x-large;
 }
