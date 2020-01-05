@@ -2,9 +2,9 @@
 
 
 
-var targetNumber = Math.floor(Math.random() * 120)
+var targetNumber = Math.floor((Math.random() * 120) + 1);
 
-  $("#number-to-guess").text(targetNumber);
+  $("#numberToGuess").text(targetNumber);
 
   var counter = 0;
 
