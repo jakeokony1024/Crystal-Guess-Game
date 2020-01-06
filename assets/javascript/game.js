@@ -17,17 +17,15 @@ var targetNumber = Math.floor((Math.random() * 120) + 1);
    
     var imageCrystal = $("<img>");
     imageCrystal.addClass("crystal-image");
-    imageCrystal.attr("src", "./assets/images/crystal-selector.jpg");
 
-    // Each imageCrystal will be given a data attribute called data-crystalValue.
-    // This data attribute will be set equal to the array value.
+    imageCrystal.attr("src", "./assets/images/pngguru.com.png");
+
     imageCrystal.attr("data-crystalvalue", numberOptions[i]);
 
-    // Lastly, each crystal image (with all it classes and attributes) will get added to the page.
     $("#crystals").append(imageCrystal);
   }
 
-  // This time, our click event applies to every single crystal on the page. Not just one.
+  
   $(".crystal-image").on("click", function() {
 
     // Determining the crystal's value requires us to extract the value from the data attribute.
@@ -42,14 +40,16 @@ var targetNumber = Math.floor((Math.random() * 120) + 1);
     counter += crystalValue;
 
     // All of the same game win-lose logic applies. So the rest remains unchanged.
-    alert("New score: " + counter);
+    $("#collected").text(" Crystals Collected: " + counter);
 
     if (counter === targetNumber) {
       alert("You win!");
+      $("#wins").text(" Wins: " );
     }
 
     else if (counter >= targetNumber) {
       alert("You lose!!");
+      
     }
 
   });
