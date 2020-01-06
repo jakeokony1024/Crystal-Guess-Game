@@ -1,7 +1,4 @@
 
-
-
-
 var targetNumber = Math.floor((Math.random() * 120) + 1);
 
   $("#numberToGuess").text(targetNumber);
@@ -25,6 +22,8 @@ var targetNumber = Math.floor((Math.random() * 120) + 1);
     $("#crystals").append(imageCrystal);
   }
 
+
+
   
   $(".crystal-image").on("click", function() {
 
@@ -44,12 +43,13 @@ var targetNumber = Math.floor((Math.random() * 120) + 1);
 
     if (counter === targetNumber) {
       alert("You win!");
-      $("#wins").text(" Wins: " );
+      $("#wins").text(" Wins: " + winCounter +1);
     }
 
     else if (counter >= targetNumber) {
       alert("You lose!!");
-      
+      $("#losses").text("Losses: " + lossCounter +1);
+
     }
 
   });
