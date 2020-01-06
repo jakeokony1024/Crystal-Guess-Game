@@ -39,3 +39,7 @@ h1 {
     line-height: normal;
     font-size: x-large;
 }
+
+.main-section {
+    margin: auto;
+}

@@ -42,14 +42,14 @@ var targetNumber = Math.floor((Math.random() * 120) + 1);
 
     if (counter === targetNumber) {
       alert("You win!");
-      $("#wins").text(" Wins: " + winCounter++);
+      $("#wins").text(" Wins: " + ++winCounter);
       reset();
       
     }
   // sets alert for losing and adds to the loss counter
     else if (counter >= targetNumber) {
       alert("You lose!!");
-      $("#losses").text("Losses: " + lossCounter++);
+      $("#losses").text("Losses: " + ++lossCounter);
       reset();
       
     }
