@@ -6,7 +6,7 @@ var targetNumber = Math.floor((Math.random() * 120) + 1);
   var counter = 0;
   var winCounter = 0;
   var lossCounter = 0;
-  var numberOptions = [1, 7, 3, 12];
+  var numberOptions = [1, 7, 3, 12, 5];
 
   
   for (var i = 0; i < numberOptions.length; i++) {
@@ -27,6 +27,7 @@ var targetNumber = Math.floor((Math.random() * 120) + 1);
     counter = 0;
     targetNumber = Math.floor((Math.random() * 120) + 1);
     $("#numberToGuess").text(targetNumber);
+    $("#collected").text(" Crystals Collected:");
   }
   // Function to get value of crystal clicked and add it to counter//
   $(".crystal-image").on("click", function() {
