@@ -1,10 +1,11 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Crystal Guess</title>
-  
+
 
   <!-- Linking css reset and style page -->
   <link rel="stylesheet" href="assets/css/reset.css">
@@ -12,36 +13,38 @@
   <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
+
 <body>
-<!-- Div containing the directions for the game -->
+  <!-- Div containing the directions for the game -->
   <div id="directions">
     <p>Welcome to Crystal Guess! </p>
-      <p>Directions: Click on any crystal to get a number.</p>
-      <p>Keep clicking on crystals to raise your number, </p>
-      <p> to try and match the number to guess.</p> 
-      <p>you match the number YOU WIN! If you go over, try again!</p>
-        
-  </div>
- 
- 
-  <!-- Main section holding number to guess span, and wins and losses --> 
-  <section class="main-section">
+    <p>Directions: Click on any crystal to get a number.</p>
+    <p>Keep clicking on crystals to raise your number, </p>
+    <p> to try and match the number to guess.</p>
+    <p>you match the number YOU WIN! If you go over, try again!</p>
 
-      <h1>Number to Guess: <span id="numberToGuess"></span></h1>
-      <div id="collected">Crystals Collected: </div>
-      <div id="wins"> Wins: </div>
-      <div id="losses"> Losses: </div>
-      
-  
-  </section>
+  </div>
+
+
+  <!-- Main section holding number to guess span, and wins and losses -->
+  <div id="main-section">
+    
+
+    <h1>Number to Guess: <span id="numberToGuess"></span></h1>
+    <div id="collected">Crystals Collected: </div>
+    <div id="wins"> Wins: </div>
+    <div id="losses"> Losses: </div>
+
+
+  </div>
   <!-- Empty div to hold crystal image -->
   <div id="crystals">
-    
-    </div>
+
+  </div>
 
 
-<!-- linking javascript page to index-->
-  <script type="text/javascript" src="./assets/javascript/game.js"></script> 
+  <!-- linking javascript page to index-->
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
 </body>
 
 

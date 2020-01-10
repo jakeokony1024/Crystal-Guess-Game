@@ -29,6 +29,7 @@ h1 {
 #rounds {
     font-size: 40px;
     text-emphasis: bold;
+    
 }
 
 /* Styling to directions and centering them */
@@ -40,6 +41,6 @@ h1 {
     font-size: x-large;
 }
 
-.main-section {
+#main-section {
     margin: auto;
 }
