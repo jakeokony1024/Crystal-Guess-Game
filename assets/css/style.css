@@ -9,10 +9,24 @@ body {
     background-size: cover;
 }
 
+.container{
+    width: 100%;
+    max-width: 1060px;
+    margin: auto;
+    clear: both;
+}
+
+#main-section{
+    margin: auto;
+}
+p{
+    line-height: 35px;
+}
 
 h1 {
     font-size: 40px;
     text-emphasis: bold;
+    margin-bottom: 20px;
 }
 
 .crystal-image {
@@ -41,6 +55,3 @@ h1 {
     font-size: x-large;
 }
 
-#main-section {
-    margin: auto;
-}

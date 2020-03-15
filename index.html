@@ -16,10 +16,11 @@
 
 <body>
   <!-- Div containing the directions for the game -->
+  <div class="container">
   <div id="directions">
-    <p>Welcome to Crystal Guess! </p>
-    <p>Directions: Click on any crystal to get a number.</p>
-    <p>Keep clicking on crystals to raise your number, </p>
+    <h1>Welcome to Crystal Guess! </h1>
+    <p>Directions: 1: Click on any crystal to get a number.</p>
+    <p>2: Keep clicking on crystals to raise your number, </p>
     <p> to try and match the number to guess.</p>
     <p>you match the number YOU WIN! If you go over, try again!</p>
 
@@ -27,21 +28,19 @@
 
 
   <!-- Main section holding number to guess span, and wins and losses -->
-  <div id="main-section">
-    
+    <div id="main-section">
 
-    <h1>Number to Guess: <span id="numberToGuess"></span></h1>
-    <div id="collected">Crystals Collected: </div>
-    <div id="wins"> Wins: </div>
-    <div id="losses"> Losses: </div>
+      <h1>Number to Guess: <span id="numberToGuess"></span></h1>
+      <div id="collected">Crystals Collected: </div>
+      <div id="wins"> Wins: </div>
+      <div id="losses"> Losses: </div>
 
+    </div>
+    <!-- Empty div to hold crystal image -->
+    <div id="crystals">
 
+    </div>
   </div>
-  <!-- Empty div to hold crystal image -->
-  <div id="crystals">
-
-  </div>
-
 
   <!-- linking javascript page to index-->
   <script type="text/javascript" src="./assets/javascript/game.js"></script>
