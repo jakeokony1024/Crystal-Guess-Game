@@ -1,8 +1,11 @@
 # unit-4-game
 
+This is an application that gives the user four crystals to click on that are each associated with an unknown number. The user then clicks on the cystals to add the amount from the clicked cystal to thier total, and try to match thier total with the random number generated. If the numbers are matched, the user gets a win count added, and if they lose, a loss count is added.
 
-1. The first step I took was to create the HTML, I wanted to have a main container that held the crystal images, as well as the direction text and the wins, losses, and rounds.
+This application makes use of HTML5, CSS3, and JavaScript using jQuery. This app sets numbers from an array to the data attribute of the crystal images, and registers when the images are clicked. It then grabs that data, stores it in a new array, and adds any additional clicks to itself. 
 
-2. The next step was to work on the logic of the game, I new that I would have to create a variable to hold the random number as well as the Math.random function to get a random number. I set     the parameters between 1 and 120. I also created variables for the wins and losses counter, this way it can be displayed on the page. 
+It will end and reset the application with an accurate win and loss counter, and a new number to guess if the number to guess is matched, or if the number is surpassed by the guess array. 
 
-3. 
+My role in the application was to build the entire site and design it. The first step was to set up the framework with HTML.
+
+Next was to work on the logic and functionality using jQuery. Once the logic was sound and no errors were detected, the styling was added. Google fonts was used to help with the styling. 
